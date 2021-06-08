@@ -1,5 +1,5 @@
-# Git
-first git
+# Git  first use git
+
 # 1、创建本地仓库（必须与github上面创建的仓库名称一样）（git init 命令）
 ### git init 仓库名称（必须与github创建的仓库名称一样）
 # 2、切换到创建的本地仓库（cd 命令）
