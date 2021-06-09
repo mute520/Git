@@ -12,7 +12,7 @@
 
 # 生成SSH key并且查看、复制key
 ### 1、生成SSH key
-### 打卡Git-Bash，输入以下命令，然后一直回车和按【y】即可：
+### 打开Git-Bash，输入以下命令，然后一直回车和按【y】即可：
 ### ssh-keygen -t rsa -C "GitHub注册的邮箱账号"
 ### 生成key后复制命令：clip < ~/.ssh/id_rsa.puh
 
