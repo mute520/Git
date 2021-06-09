@@ -6,9 +6,16 @@
 ### cd 仓库名称
 # 3、添加远程仓库（git remote add origin 命令）
 ### git remote add origin 仓库克隆SSh地址
-# 4、将分支推送到GitHub（git push 命令）
+# 4、首次拉取远程仓库（git pull 命令）
+### 首次推送  git pull <remote> <branch>
+### 非首次推送 git pull
+### If you wish to set tracking information for this branch you can do so with(如果您希望设置此分支的跟踪信息，您可以这样做):
+### git branch --set-upstream-to=origin/<branch> master
+# 5、将分支推送到GitHub（git push 命令）
 ### 首次推送  git push -u origin master
 ### 非首次推送 git push
+### To push the current branch and set the remote as upstream, use(若要推入当前分支并将远程设置为上游，请使用)
+### git push --set-upstream origin master
 
 # 生成SSH key并且查看、复制key
 ### 1、生成SSH key
